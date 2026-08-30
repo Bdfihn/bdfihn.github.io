@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Albert Zhang</title>
+<meta name="description" content="Albert Zhang — engineer and researcher in Houston. I spend most of my working time in Claude Code.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon-256.png" sizes="256x256" type="image/png">
+<link rel="apple-touch-icon" href="assets/favicon-256.png">
+
+<link rel="canonical" href="https://bdfihn.github.io/">
+
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://bdfihn.github.io/">
+<meta property="og:title" content="Albert Zhang">
+<meta property="og:description" content="Engineer and researcher in Houston. I spend most of my working time in Claude Code.">
+<meta property="og:image" content="https://bdfihn.github.io/assets/albert.jpg">
+<meta name="twitter:card" content="summary">
+
+<link rel="stylesheet" href="style.css">
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem("theme");
+      if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body>
+<div class="wrap">
+
+  <aside class="rail">
+    <img class="avatar" src="assets/albert.jpg" alt="Albert Zhang" width="140" height="140">
+    <h1>Albert Zhang</h1>
+    <p class="lede">Engineer and researcher in Houston. I spend most of my working time in Claude&nbsp;Code.</p>
+    <nav class="rail-links">
+      <a href="mailto:albertzz@bu.edu">albertzz@bu.edu</a>
+      <a href="https://github.com/Bdfihn">GitHub</a>
+      <a href="https://www.linkedin.com/in/albertzhang112/">LinkedIn</a>
+      <a href="assets/resume.pdf" target="_blank" rel="noopener">Resume</a>
+    </nav>
+    <button class="theme-toggle" type="button" id="theme-toggle">Dark mode</button>
+  </aside>
+
+  <main>
+
+    <section class="intro s-about">
+      <h2>About</h2>
+      <p>Hello! I'm Albert. I'm a Data Solutions Engineer at Insource Services, where I build data pipelines, AI-powered systems, and benchmarks for AI in education. I studied computer science and biochemistry &amp; molecular biology at Boston University.</p>
+      <p>My research is about where language models go wrong when they teach — when a tutor should help a student and when it should hold back, and how vision models read, and misread, students' handwritten math. I do this work at Insource with collaborators at Ai2, MIT, Stanford, and UW, supported by CZI and the Gates Foundation.</p>
+    </section>
+
+    <section class="s-news">
+      <h2>News</h2>
+      <ul class="news">
+        <li><span class="date">Jun 2026</span><span><a href="https://tutormoments.allen.ai/">TutorMoments-Preview</a> is out, with dataset and code.</span></li>
+        <li><span class="date">Mar 2026</span><span><a href="https://arxiv.org/abs/2603.00925">The Aftermath of DrawEduMath</a> is on arXiv.</span></li>
+        <li><span class="date">Jul 2025</span><span>Went full-time at Insource, the company's fastest intern conversion.</span></li>
+        <li><span class="date">May 2025</span><span>Started at Insource Services as a data solutions engineer intern.</span></li>
+        <li><span class="date">May 2025</span><span>Graduated from Boston University with degrees in cs and biochem.</span></li>
+        <li><span class="date">May 2024</span><span>Started an R&amp;D internship at Aramco on novel materials in carbon capture.</span></li>
+      </ul>
+    </section>
+
+    <section class="s-research">
+      <h2>Research</h2>
+
+      <article>
+        <h3><a href="https://tutormoments.allen.ai/static/paper/tutormoments-preview.pdf">TutorMoments-Preview: When Help is Unhelpful — Evaluating AI Tutors for Productive Struggle</a></h3>
+        <p class="desc">A replay-based framework for evaluating whether AI tutors know when to help a student and when to hold back.</p>
+        <p class="authors"><strong>Albert Zhang</strong>, Alexis Ross, Kajal Patel, Julian Bernado, Rebecca Bowie, Ana Trindade Ribeiro, Daniel Halper, Haripriya Valayaputtur, Jacob Andreas, Susanna Loeb, Lucy Li, Kyle Lo, Ryan Knight</p>
+        <p class="meta">Preprint, 2026 &middot;
+          <a href="https://tutormoments.allen.ai/static/paper/tutormoments-preview.pdf">paper</a> &middot;
+          <a href="https://tutormoments.allen.ai/">site</a> &middot;
+          <a href="https://github.com/allenai/tutormoments">code</a> &middot;
+          <a href="https://huggingface.co/datasets/allenai/tutormoments-preview">data</a></p>
+      </article>
+
+      <article>
+        <h3><a href="https://arxiv.org/abs/2603.00925">The Aftermath of DrawEduMath: Vision Language Models Underperform with Struggling Students and Misdiagnose Errors</a></h3>
+        <p class="desc">Eleven vision language models evaluated on real students' handwritten math work. They do worst on the students who need the most help.</p>
+        <p class="authors">Lucy Li, <strong>Albert Zhang</strong>, Nathan Anderson, Ryan Knight, Kyle Lo</p>
+        <p class="meta">Preprint, 2026 &middot;
+          <a href="https://arxiv.org/abs/2603.00925">paper</a> &middot;
+          <a href="https://drawedumath.org/">site</a></p>
+      </article>
+    </section>
+
+    <section class="s-projects">
+      <h2>Projects</h2>
+      <article>
+        <h3><a href="https://github.com/Bdfihn/Blackbox">Blackbox</a></h3>
+        <p class="desc">Self-hosted personal logging. Captures PC activity, git history, Claude Code transcripts, and health data into a local vector database, then answers questions about it in natural language and writes daily summaries. Runs entirely offline.</p>
+        <p class="meta">Python, Qdrant, Ollama, Docker &middot; <a href="https://github.com/Bdfihn/Blackbox">code</a></p>
+      </article>
+    </section>
+
+    <section class="s-otherwise">
+      <h2>Otherwise</h2>
+      <p>I've played Genshin Impact since launch. AR 60, 36-star Abyss, Lunar difficulty Theater, and C0R1 Dire Stygian Onslaught clears. I'm Diamond in League.</p>
+      <p>I go to Shanghai when I can to visit my grandparents and explore the city. Four years in Boston have given me strong opinions about the food. Enjoyer of tea, coffee, and matcha.</p>
+    </section>
+
+  </main>
+</div>
+<script>
+  (function () {
+    var root = document.documentElement;
+    var btn = document.getElementById("theme-toggle");
+    var mq = window.matchMedia("(prefers-color-scheme: dark)");
+
+    function current() {
+      return root.getAttribute("data-theme") || (mq.matches ? "dark" : "light");
+    }
+
+    function label() {
+      btn.textContent = current() === "dark" ? "Light mode" : "Dark mode";
+    }
+
+    btn.addEventListener("click", function () {
+      var next = current() === "dark" ? "light" : "dark";
+      root.setAttribute("data-theme", next);
+      try { localStorage.setItem("theme", next); } catch (e) {}
+      label();
+    });
+
+    mq.addEventListener("change", label);
+    label();
+  })();
+</script>
+</body>
+</html>
